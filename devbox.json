@@ -1,6 +1,12 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.10.6/.schema/devbox.schema.json",
-  "packages": ["nodejs@latest"],
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.10.6/.schema/devbox.schema.json",
+  "packages": [
+    "starship@latest",
+    "yazi@latest",
+    "nushell@latest",
+    "zellij@latest",
+    "stow@latest"
+  ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
