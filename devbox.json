@@ -5,7 +5,9 @@
     "yazi@latest",
     "nushell@latest",
     "zellij@latest",
-    "stow@latest"
+    "stow@latest",
+    "helix@latest",
+    "direnv@latest"
   ],
   "shell": {
     "init_hook": [
